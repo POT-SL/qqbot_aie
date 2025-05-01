@@ -273,7 +273,6 @@ def monitor_status():
     notice = False
 
     while power:
-        print(power)
         tmp = get_status()
         if tmp:
             notice = False
@@ -600,8 +599,6 @@ def chat(msg):
             del chat_list[:2]
         chat_list.append({"role": "user", "content": f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S :")} {msg}'})
         chat_list.insert(0, ds_system)
-
-        print(chat_list)
 
         # 防止崩溃
         try:
