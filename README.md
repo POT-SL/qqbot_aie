@@ -13,13 +13,13 @@
 https://llonebot.com/zh-CN/
 
 安装好后是这个样子：
-![图片1](.\help\1.png)
+![图片1](./help/1.png)
 
 随后填写好端口（后面注册会用到）
-![图片2](.\help\2.png)
+![图片2](./help/2.png)
 
 然后保存
-![图片3](.\help\3.png)
+![图片3](./help/3.png)
 
 # （可选）配置ollama
 
@@ -41,26 +41,26 @@ https://ollama.com/
 
 若显示这样就表示安装成功！
 
-![图片](.\help\o1.png)
+![图片](./help/o1.png)
 
 **如果安装不成功的话是这样子**
 
-![图片](.\help\o1.5.png)
+![图片](./help/o1.5.png)
 
 随后打开“编辑系统环境变量”，打开环境变量
 
-![图片](.\help\o2.png)
+![图片](./help/o2.png)
 
-![图片](.\help\o3.png)
+![图片](./help/o3.png)
 
-![图片](.\help\o4.png)
+![图片](./help/o4.png)
 
 随后退出ollama：
 
-![图片](.\help\o5.png)
+![图片](./help/o5.png)
 
 然后再次打开cmd，输入“ollama list”激活启动ollama
 
-![图片](.\help\o6.png)
+![图片](./help/o6.png)
 
 ### 至此，ollama安装完毕
