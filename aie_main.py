@@ -640,7 +640,7 @@ def chat(msg):
         # 若是睡觉提示词 且 时间正确
         elif result == 'sleep':
             # 如果是睡眠时间
-            if datetime.hour in [i for i in range(8)] + [21, 22, 23]:
+            if datetime.now().hour in [i for i in range(8)] + [21, 22, 23]:
                 log('进入睡觉模式力.')
                 # 勿扰模式
                 dnd = True
