@@ -1,6 +1,3 @@
-# qqbot_aie
-基于llonebot、deepseek、ollama开发的电子女友
-
 # AIE
 ## 一个智能化机器人
 #### 有时候可能不智能（
