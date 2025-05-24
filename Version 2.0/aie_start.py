@@ -690,6 +690,7 @@ def aie_start():
             aie_first_start()
         else:
             print("请以管理员身份运行此脚本")
+            system('pause')
             _exit(1)
 
 
